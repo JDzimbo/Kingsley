@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Book Kingsley for film, television, events, and brand collaborations.">
+  <title>Bookings — Kingsley</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html">JASON STATHAM<span>®</span></a>
+
+   <nav aria-label="Main navigation">
+  <a href="index.html">Home</a>
+  <a href="films.html">Films</a>
+  <a href="showreel.html">Showreel</a>
+  <a href="appearances.html">Appearances</a>
+  <a href="meet-greet.html">Meet & Greet</a>
+  <a class="active" href="bookings.html">Bookings</a>
+  <a href="press.html">Press</a>
+  <a href="contact.html">Contact</a>
+  <a href="privacy.html">Privacy</a>
+</nav>
+    <a class="nav-cta" href="index.html#fan-club">Join the club <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="booking-hero">
+      <p class="kicker"><span></span> MANAGEMENT & REPRESENTATION</p>
+
+      <h1>LET’S<br><em>WORK.</em></h1>
+
+      <p>
+        For casting, appearances, speaking engagements, brand campaigns,
+        and partnerships, send a booking enquiry below.
+      </p>
+    </section>
+
+    <section class="booking-options">
+      <article>
+        <span>01</span>
+        <h2>Film &<br>Television</h2>
+        <p>Feature films, television series, voice work, and casting enquiries.</p>
+      </article>
+
+      <article>
+        <span>02</span>
+        <h2>Events &<br>Appearances</h2>
+        <p>Premieres, panels, red carpets, live events, and public appearances.</p>
+      </article>
+
+      <article>
+        <span>03</span>
+        <h2>Brands &<br>Partnerships</h2>
+        <p>Campaigns, endorsements, collaborations, and creative projects.</p>
+      </article>
+    </section>
+
+    <section class="booking-form-section section">
+      <div class="booking-intro">
+        <p class="kicker"><span></span> MAKE AN ENQUIRY</p>
+        <h2>START THE<br><em>CONVERSATION.</em></h2>
+
+        <p>
+          Please provide as much detail as possible. The management team will
+          review your request and respond if there is a suitable opportunity.
+        </p>
+
+        <div class="booking-note">
+          <strong>Important</strong>
+          <p>
+            Sending this form does not confirm a booking. Dates, fees, and
+            availability are agreed in writing through management.
+          </p>
+        </div>
+      </div>
+
+      <form class="booking-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">
+            Your name
+            <input id="name" name="name" type="text" placeholder="FULL NAME" required>
+          </label>
+
+          <label for="company">
+            Company or organisation
+            <input id="company" name="company" type="text" placeholder="COMPANY NAME">
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label for="email">
+            Email address
+            <input id="email" name="email" type="email" placeholder="YOU@EMAIL.COM" required>
+          </label>
+
+          <label for="phone">
+            Phone number
+            <input id="phone" name="phone" type="tel" placeholder="+1 000 000 0000">
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label for="enquiry-type">
+            Enquiry type
+            <select id="enquiry-type" name="enquiry-type" required>
+              <option value="">SELECT AN OPTION</option>
+              <option>Film or television role</option>
+              <option>Event appearance</option>
+              <option>Brand partnership</option>
+              <option>Interview or press</option>
+              <option>Speaking engagement</option>
+              <option>Other</option>
+            </select>
+          </label>
+
+          <label for="event-date">
+            Preferred date
+            <input id="event-date" name="event-date" type="date">
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label for="location">
+            Location
+            <input id="location" name="location" type="text" placeholder="CITY, COUNTRY">
+          </label>
+
+          <label for="budget">
+            Estimated budget
+            <select id="budget" name="budget">
+              <option value="">SELECT A RANGE</option>
+              <option>Under $5,000</option>
+              <option>$5,000 – $15,000</option>
+              <option>$15,000 – $50,000</option>
+              <option>$50,000+</option>
+              <option>To be discussed</option>
+            </select>
+          </label>
+        </div>
+
+        <label for="message" class="full-width">
+          Tell us about the opportunity
+          <textarea
+            id="message"
+            name="message"
+            rows="7"
+            placeholder="PROJECT, EVENT, EXPECTED ATTENDANCE, TIMELINE, AND ANY OTHER IMPORTANT DETAILS."
+            required
+          ></textarea>
+        </label>
+
+        <label class="consent">
+          <input type="checkbox" required>
+          <span>
+            I confirm that the information provided is accurate and agree to
+            be contacted about this enquiry.
+          </span>
+        </label>
+
+        <button class="button button-orange" type="submit">
+          Send booking enquiry <b>→</b>
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="wordmark" href="index.html">JASON STATHAM<span>®</span></a>
+
+    <p>© 2026 Kingsley. All rights reserved.</p>
+
+    <div>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+      <a href="#">YouTube</a>
+    </div>
+  </footer>
+</body>
+</html>
